@@ -1,0 +1,19 @@
+﻿<Application x:Class="Wpf.Mvvm.Multi_Lingual.UI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Wpf.Mvvm.Multi_Lingual.UI">
+    <Application.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary>
+					<local:Bootstrapper x:Key="Bootstrapper"/>
+				</ResourceDictionary> 
+				<!-- Order is important -->
+				<!-- English -->
+				<ResourceDictionary Source="/Resources/StringResources.xaml"/>
+				<!-- Korean -->
+				<ResourceDictionary Source="/Resources/StringResources.ko.xaml"/>
+			</ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>

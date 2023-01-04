@@ -1,0 +1,29 @@
+﻿<Window x:Class="Wpf.Mvvm.Multi_Lingual.UI.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf.Mvvm.Multi_Lingual.UI.Views"
+		xmlns:cal="http://caliburnmicro.com"
+		xmlns:glob ="clr-namespace:System.Globalization;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="{Binding Title, ConverterCulture={x:Static glob:CultureInfo.CurrentCulture}}" 
+		Height="450" Width="800">
+    <Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="40"/>
+			<RowDefinition Height="100"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<ContentControl
+			Grid.Row="0"
+			x:Name="SelectionLanguageViewModel"/>
+		<ContentControl
+			Grid.Row="1"
+			x:Name="Sample1ViewModel"
+			/>
+		<ContentControl 
+			Grid.Row="2"
+			x:Name="MainPageViewModel"/>
+	</Grid>
+</Window>
