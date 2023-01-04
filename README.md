@@ -1,5 +1,6 @@
-# WPF MVVM 패턴을 활용한 Multi-Lingual Sample Program
-## Goal : WPF에 활용되는 다국어 변환 로직을 다이나믹한 구조로 적용하는 방안을 모색해 본다.
+# WPF MVVM 패턴을 활용한,   Multi-Lingual Sample Program
+
+> Goal :WPF에 활용되는 다국어 변환 로직을 다이나믹한 구조로 적용하는 방안을 모색해 본다.
 
 
 ### 적용 앱
