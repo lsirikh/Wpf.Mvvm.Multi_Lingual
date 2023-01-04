@@ -25,8 +25,8 @@
 
 ## 참고 이미지
 
-![샘플 프로그램](https://i.esdrop.com/d/ZklKfna5T3.jpg "샘플 프로그램(한국어)")
+![샘플 프로그램](https://github.com/lsirikh/Wpf.Mvvm.Multi_Lingual/blob/main/Pictures/Korean.png "샘플 프로그램(한국어)")
 한국어 선택 시
 
-![샘플 프로그램](https://i.esdrop.com/d/ZklKfna5T3.jpg "샘플 프로그램(영어)")
+![샘플 프로그램](https://github.com/lsirikh/Wpf.Mvvm.Multi_Lingual/blob/main/Pictures/English.png "샘플 프로그램(영어)")
 영어 선택 시
